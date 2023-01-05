@@ -1,0 +1,169 @@
+.container{
+    display: flex;
+    color: #fff;
+    
+}
+
+.content-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.docs-container{
+    width: 70%;
+    padding-left: 270px;
+}
+
+.head h1{
+    width: 100%;
+    font-size: 42px;
+    font-weight: 500;
+    margin-top: 90px;
+}
+
+.para p{
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 0 50px;
+    
+}
+
+.card{
+    margin: 10px 10px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    box-shadow: 0 2px 2px #0a10143d, 0 0 2px #0a10141f;
+    position: relative;
+}
+
+.card h1,h5{
+    padding: 0 20px;
+
+}
+
+.card h5{
+    padding-bottom: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.9;
+}
+
+.card h1{
+    color: #39d0ff;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.card div{
+    background-color: #444;
+    padding: 15px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card div a{
+    color: #bae0ff;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+.horizontal{
+    width: 100%;
+    border-top: 1px solid rgb(165, 165, 165);
+}
+
+div p a{
+    color: #7fc9ff;
+    text-decoration: none;
+}
+div p a:hover{
+    text-decoration: underline;
+}
+
+.assumptions, .feedback{
+    padding: 20px 0;
+}
+
+.assumptions div p{
+    line-height: 1.9;
+}
+
+.feedback div p{
+    line-height: 2.9    ;
+}
+
+.assumptions div h1{
+    line-height: 1.8;
+}
+
+.feedback div h1{
+    font-size: 32px;
+}
+.assumptions div h1{
+    font-size: 32px;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+
+}
+
+@media (max-width:1330px){
+    .footer{
+        padding-left: 250px;
+    }
+}
+
+@media (max-width:990px){
+    .aside{
+        display: none;
+    }
+
+    .footer{
+        padding-left: 0;
+    }
+
+
+
+    .docs-container{
+        width: 95%;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width:550px){
+    .head{
+        margin-top: 90px;
+    }
+
+    .docs-container{
+        width: 98%;
+        padding: 0 10px;
+    }
+
+    .cards{
+        padding: 0;
+
+        
+    }
+}
